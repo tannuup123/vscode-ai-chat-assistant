@@ -1,0 +1,36 @@
+{
+  "name": "ai-chat-assistant",
+  "version": "1.0.0",
+  "main": "./dist/extension.js",
+  "engines": {
+    "vscode": "^1.85.0"
+  },
+  "activationEvents": [
+    "onCommand:ai-chat-assistant.start"
+  ],
+  "contributes": {
+    "commands": [
+      {
+        "command": "ai-chat-assistant.start",
+        "title": "AI Chat Assistant: Start"
+      }
+    ]
+  },
+  "scripts": {
+    "build": "webpack --config webpack.config.js && webpack --config webpack.webview.config.js"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.23",
+    "@types/react-dom": "^18.3.7",
+    "@types/vscode": "^1.101.0",
+    "ts-loader": "^9.5.2",
+    "typescript": "^5.8.3",
+    "vscode": "^1.1.37",
+    "webpack": "^5.99.9",
+    "webpack-cli": "^5.1.4"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  }
+}
