@@ -47,13 +47,19 @@ Built with a sleek React WebView interface, this assistant supports code generat
 ....npm run build (run thin command in your project folder terminal)
 
 3.Launch in Extension Host
+
 ....Open the folder in VS Code.
+
 ....Press F5 to launch Extension Development Host.
+
 ....Run AI: Chat Assistant from the Command Palette (Ctrl+Shift+P).
 
 3.Start Chatting
+
 ....Type any message to chat with the assistant.
+
 ....Use @filename to attach any file from your workspace.
+
 ....For now, the assistant replies with a mock response.
 
 ##  Future Improvements (Optional)
